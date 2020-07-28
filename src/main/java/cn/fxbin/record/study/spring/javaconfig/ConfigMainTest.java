@@ -2,7 +2,6 @@ package cn.fxbin.record.study.spring.javaconfig;
 
 import cn.fxbin.record.study.spring.javaconfig.config.UserConfig;
 import cn.fxbin.record.study.spring.javaconfig.service.UserService;
-import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -14,8 +13,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class ConfigMainTest {
 
-    @Test
-    public void test() {
+
+    public static void main(String[] args) {
+
         // 获取Java配置类
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(UserConfig.class);

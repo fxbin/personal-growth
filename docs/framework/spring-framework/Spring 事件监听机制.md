@@ -7,7 +7,7 @@
     
 ## 自定义事件实现
 
-[自定义事件实现](https://github.com/fxbin/personal-growth/src/main/java/cn/fxbin/record/study/event)
+[自定义事件实现](https://github.com/fxbin/personal-growth/tree/master/src/main/java/cn/fxbin/record/study/event)
 
 ## Spring 容器内的事件监听机制
 
@@ -21,4 +21,5 @@
 * `ApplicationEventPublisher`: 
 * `ApplicationContext`: 继承自 `ApplicationEventPublisher` 接口，提供 `void publishEvent(ApplicationEvent event)` 方法定义，可充当发布者角色
 * `ApplicationEventMulticaster`: `ApplicationContext` 将事件的发布以及监听器的管理工作委托给 `ApplicationEventMulticaster` 接口的实现类, 
-    在容器启动时，会检查容器内是否存在名为 `applicationEventMulticaster` 的 `ApplicationEventMulticaster` 对象实例。如果有就使用其提供的实现，没有就默认初始化一个 `SimpleApplicationEventMulticaster` 作为实现。
+    在容器启动时，会检查容器内是否存在名为 `applicationEventMulticaster` 的 `ApplicationEventMulticaster` 对象实例。如果有就使用其提供的实现，
+    没有就默认初始化一个 `SimpleApplicationEventMulticaster` 作为实现。

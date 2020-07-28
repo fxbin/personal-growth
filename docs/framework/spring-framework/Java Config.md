@@ -12,7 +12,7 @@
 
 ### 怎么实现
 
-[Spring Java Config 示例代码](https://github.com/fxbin/personal-growth/src/main/java/cn/fxbin/record/study/spring/javaconfig)
+[Spring Java Config 示例代码](https://github.com/fxbin/personal-growth/tree/master/src/main/java/cn/fxbin/record/study/spring/javaconfig)
 
 ### BeanFactory注册 Bean
 
