@@ -23,7 +23,7 @@
 `sun.misc.Service` 
 `java.util.ServiceLoader`
 
-- [DEMO](src/main/java/cn/fxbin/record/study/spi)
+- [DEMO](https://github.com/fxbin/personal-growth/tree/master/code-modules/basic-knowledge/src/main/java/cn/fxbin/record/basic/spi)
 
 ## SPI 案例
  
