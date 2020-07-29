@@ -15,6 +15,8 @@
     <modules>
         <module>tomcat-websocket</module>
         <module>spring-websocket</module>
+        <module>grpc-demo</module>
+        <module>grpc-starter-demo</module>
     </modules>
 
 </project>
