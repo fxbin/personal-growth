@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: user-service-consumer # 应用名
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  # Dubbo 消费者配置
+  consumer:
+    # 【重要】远程服务调用超时时间，单位：毫秒。默认为 1000 毫秒，胖友可以根据自己业务修改
+    timeout: 1000
+    UserRpcService:
+      version: 1.0.0

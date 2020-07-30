@@ -2,24 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>code-modules</artifactId>
         <groupId>cn.fxbin.record</groupId>
+        <artifactId>spring-boot-knowledge</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-knowledge</artifactId>
+    <artifactId>dubbo-xml-demo</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>tomcat-websocket</module>
-        <module>spring-websocket</module>
-        <module>grpc-demo</module>
-        <module>grpc-starter-demo</module>
-        <module>event-demo</module>
-        <module>dubbo-xml-demo</module>
-        <module>dubbo-annotations-demo</module>
+        <module>user-rpc-service-api</module>
+        <module>user-rpc-service-consumer</module>
+        <module>user-rpc-service-provider</module>
     </modules>
+
 
 </project>
