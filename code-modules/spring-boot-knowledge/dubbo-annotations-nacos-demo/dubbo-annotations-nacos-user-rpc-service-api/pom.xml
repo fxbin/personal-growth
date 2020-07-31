@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.fxbin.record</groupId>
-        <artifactId>spring-boot-knowledge</artifactId>
+        <artifactId>dubbo-annotations-nacos-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dubbo-xml-demo</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>dubbo-annotations-nacos-user-rpc-service-api</artifactId>
 
-    <modules>
-        <module>dubbo-xml-user-rpc-service-api</module>
-        <module>dubbo-xml-user-rpc-service-consumer</module>
-        <module>dubbo-xml-user-rpc-service-provider</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>

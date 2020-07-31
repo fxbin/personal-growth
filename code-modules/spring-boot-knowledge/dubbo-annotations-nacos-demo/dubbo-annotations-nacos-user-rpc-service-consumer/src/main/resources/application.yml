@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: dubbo-annotations-user-rpc-service-consumer
+  registry:
+    address: nacos://127.0.0.1:8848
+  consumer:
+    timeout: 1000
+    UserRpcService:
+      version: 1.0.0

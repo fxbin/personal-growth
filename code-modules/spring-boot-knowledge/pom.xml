@@ -20,6 +20,8 @@
         <module>event-demo</module>
         <module>dubbo-xml-demo</module>
         <module>dubbo-annotations-demo</module>
+        <module>dubbo-annotations-nacos-demo</module>
+        <module>dubbo-annotations-sentinel-demo</module>
     </modules>
 
 </project>

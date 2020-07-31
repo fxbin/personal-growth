@@ -25,6 +25,7 @@ Personal growth records
 - [SpringBoot WebSocket](docs/framework/spring-boot/SpringBoot%20WebSocket.md)
 - [SpringBoot 声明式调用Feign](http://www.iocoder.cn/Spring-Boot/Feign/?self)
 - [SpringBoot gRPC](docs/framework/spring-boot/SpringBoot%20gRPC.md)
+- [SpringBoot Dubbo](docs/framework/spring-boot/SpringBoot%20Dubbo.md)
 ### mapstruct
 - [MapStruct](/docs/framework/mapstruct/MapStruct.md)
 ### Swagger

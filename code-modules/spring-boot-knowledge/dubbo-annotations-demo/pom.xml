@@ -10,6 +10,13 @@
     </parent>
 
     <artifactId>dubbo-annotations-demo</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>dubbo-annotations-user-rpc-service-api</module>
+        <module>dubbo-annotations-user-rpc-service-consumer</module>
+        <module>dubbo-annotations-user-rpc-service-provider</module>
+    </modules>
 
 
 </project>

@@ -9,13 +9,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dubbo-xml-demo</artifactId>
+    <artifactId>dubbo-annotations-sentinel-demo</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>dubbo-xml-user-rpc-service-api</module>
-        <module>dubbo-xml-user-rpc-service-consumer</module>
-        <module>dubbo-xml-user-rpc-service-provider</module>
+        <module>dubbo-annotations-sentinel-user-rpc-service-api</module>
+        <module>dubbo-annotations-sentinel-user-rpc-service-consumer</module>
+        <module>dubbo-annotations-sentinel-user-rpc-service-provider</module>
     </modules>
 
 

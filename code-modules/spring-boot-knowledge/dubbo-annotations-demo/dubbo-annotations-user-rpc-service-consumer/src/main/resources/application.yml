@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: dubbo-annotations-user-rpc-service-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    timeout: 1000
+    UserRpcService:
+      version: 1.0.0
