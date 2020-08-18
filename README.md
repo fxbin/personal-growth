@@ -44,3 +44,4 @@ Personal growth records
 - [链表](/docs/data-structure/链表.md)
 - [定时器算法](/docs/data-structure/定时器算法.md)
 - [哈希表](/docs/data-structure/哈希表.md)
+- [树](/docs/data-structure/树.md)
