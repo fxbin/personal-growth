@@ -26,8 +26,6 @@ emmm... 基于MySQL的数据同步机制，Canal 巧妙的诞生了...
 * MySQL master 收到 dump 请求，开始推送 binary log 给 slave (即 canal )
 * canal 解析 binary log 对象(原始为 byte 流)
 
-## 快速开始
-
 ### binlog 介绍
 
 [binlog 介绍](docs/db/mysql/binlog介绍.md)
@@ -50,11 +48,17 @@ CREATE USER canal IDENTIFIED BY 'canal';
 GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'canal'@'%';
 -- GRANT ALL PRIVILEGES ON *.* TO 'canal'@'%' ;
 FLUSH PRIVILEGES;
-```    
+```
+## How to Use 
 
-### [QuickStart](https://github.com/alibaba/canal/wiki/QuickStart)
-### [Docker QuickStart](https://github.com/alibaba/canal/wiki/Docker-QuickStart)
-### [Canal Admin QuickStart](https://github.com/alibaba/canal/wiki/Canal-Admin-QuickStart)
+#### [QuickStart](https://github.com/alibaba/canal/wiki/QuickStart)
+#### [Docker QuickStart](https://github.com/alibaba/canal/wiki/Docker-QuickStart)
+#### [Canal Admin QuickStart](https://github.com/alibaba/canal/wiki/Canal-Admin-QuickStart)
 
+## 整体设计
 
-    
+![Canal Server 整体设计](images/Canal%20Server%20整体设计.jpg)
+
+* server 代表一个 canal 运行实例，对应于一个 jvm
+* instance 对应于一个数据队列 （1个 canal server 对应 1..n 个 instance )
+    > [Canal Instance 详情](Canal%20Instance.md)
