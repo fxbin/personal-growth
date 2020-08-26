@@ -37,8 +37,8 @@ myself record doc
 
 ## 中间件
 ### Canal
--[Canal初识](/docs/middleware/canal/Canal%20初识.md)
--[Canal Instance](/docs/middleware/canal/Canal%20Instance.md)
+- [Canal初识](/docs/middleware/canal/Canal%20初识.md)
+- [Canal Instance](/docs/middleware/canal/Canal%20Instance.md)
 
 ### Kafka
 
@@ -46,14 +46,15 @@ myself record doc
 ### MySQL
 - [binlog介绍](/docs/db/mysql/binlog介绍.md)
 
-## 数据结构
+## 算法与数据结构
+### 数据结构
 - [数组](/docs/algorithm-data-structure/data-structure/数组.md)
 - [链表](/docs/algorithm-data-structure/data-structure/链表.md)
 - [哈希表](/docs/algorithm-data-structure/data-structure/哈希表.md)
 - [树](/docs/algorithm-data-structure/data-structure/树.md)
 - [Trie 树](/docs/algorithm-data-structure/data-structure/Trie%C2%A0树.md)
 - [图](docs/algorithm-data-structure/data-structure/图.md)
-## 算法
+### 算法
 - [定时器算法](/docs/algorithm-data-structure/algorithm/定时器算法.md)
 - [LRU算法](/docs/algorithm-data-structure/algorithm/LRU算法.md)
 - [一致性哈希算法](/docs/algorithm-data-structure/algorithm/一致性哈希算法.md)
