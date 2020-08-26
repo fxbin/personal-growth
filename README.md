@@ -1,5 +1,5 @@
-# personal growth
-Personal growth records
+# MySelf wiki
+myself record doc
 
 ## Java基础
 ### 类加载机制
