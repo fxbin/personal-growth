@@ -22,7 +22,9 @@ show variables like 'log_bin%';
 * 显示服务器所有的binlog 文件
 ```sql
 show binary logs;
+```
 
+```sql
 show master logs;
 ```
 
