@@ -34,6 +34,8 @@
 
 - 中间件
     - Canal
+        - [Canal初识](/docs/middleware/canal/Canal%20初识.md)
+        - [Canal Instance](/docs/middleware/canal/Canal%20Instance.md)
 
 - 数据结构
     - [数组](/docs/algorithm-data-structure/data-structure/数组.md)
