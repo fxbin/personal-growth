@@ -1,0 +1,1 @@
+* [SpringBoot 声明式调用Feign](http://www.iocoder.cn/Spring-Boot/Feign/?self)
