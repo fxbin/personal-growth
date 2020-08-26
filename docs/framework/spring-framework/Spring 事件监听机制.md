@@ -7,7 +7,7 @@
     
 ## 自定义事件实现
 
-[自定义事件实现](https://github.com/fxbin/personal-growth/tree/master/src/main/java/cn/fxbin/record/study/event)
+[自定义事件实现](https://github.com/fxbin/myself-wiki/tree/master/src/main/java/cn/fxbin/record/study/event)
 
 ## Spring 容器内的事件监听机制
 

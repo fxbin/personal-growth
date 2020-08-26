@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.fxbin.record</groupId>
-    <artifactId>personal-growth</artifactId>
+    <artifactId>myself-wiki</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>personal-growth</name>
-    <description>Personal growth records, about coding, life, philosophy and so on</description>
+    <name>myself-wiki</name>
+    <description>MySelf Wiki, about coding, life, philosophy and so on</description>
 
     <parent>
         <groupId>cn.fxbin.bubble</groupId>

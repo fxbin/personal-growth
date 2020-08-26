@@ -9,5 +9,5 @@
 * Netty WebSocket
 
 ## 栗子🍗
-[Spring WebSocket DEMO](https://github.com/fxbin/personal-growth/tree/master/code-modules/spring-boot-knowledge/spring-websocket)
-[Tomcat WebSocket DEMO](https://github.com/fxbin/personal-growth/tree/master/code-modules/spring-boot-knowledge/tomcat-websocket)
+[Spring WebSocket DEMO](https://github.com/fxbin/myself-wiki/tree/master/code-modules/spring-boot-knowledge/spring-websocket)
+[Tomcat WebSocket DEMO](https://github.com/fxbin/myself-wiki/tree/master/code-modules/spring-boot-knowledge/tomcat-websocket)

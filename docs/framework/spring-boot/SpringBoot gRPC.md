@@ -18,13 +18,13 @@
 
 > [protocol buffers docs](https://developers.google.com/protocol-buffers/docs/proto3)
 
-> [gRPC SpringBoot Demo](https://github.com/fxbin/personal-growth/tree/master/code-modules/spring-boot-knowledge/grpc-demo)
+> [gRPC SpringBoot Demo](https://github.com/fxbin/myself-wiki/tree/master/code-modules/spring-boot-knowledge/grpc-demo)
 
 ## grpc-spring-boot-starter
 
 [官方文档](https://yidongnan.github.io/grpc-spring-boot-starter/zh-CN/)
 
-[DEMO](https://github.com/fxbin/personal-growth/tree/master/code-modules/spring-boot-knowledge/grpc-starter-demo)
+[DEMO](https://github.com/fxbin/myself-wiki/tree/master/code-modules/spring-boot-knowledge/grpc-starter-demo)
 
 ---
 参考文档：
