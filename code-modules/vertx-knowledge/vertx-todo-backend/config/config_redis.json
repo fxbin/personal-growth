@@ -1,0 +1,6 @@
+{
+  "service.type": "redis",
+  "http.port": 8082,
+  "http.address": "0.0.0.0",
+  "redis.connect": "redis://:bin@127.0.0.1:6379/1"
+}

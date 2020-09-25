@@ -17,6 +17,7 @@
         <module>spring-framework-knowledge</module>
         <module>other-useful-framework-knowledge</module>
         <module>spring-boot-knowledge</module>
+        <module>vertx-knowledge</module>
     </modules>
 
 
