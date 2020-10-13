@@ -26,7 +26,7 @@ NEW
 
 > new 状态的线程，是指还没调用Thread实例的start()方法
 
-```java
+```java_holder_method_tree
 private void testStateNew() {
     Thread thread = new Thread(() -> {});
     System.out.println(thread.getState()); // 输出 NEW 
