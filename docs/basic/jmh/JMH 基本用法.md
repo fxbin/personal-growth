@@ -177,6 +177,14 @@
 >```
 > 在编译阶段，y的值将被直接赋予200，这就是所谓的常量折叠
 >
-> 
+> [代码清单](https://github.com/fxbin/myself-wiki/tree/master/code-modules/basic-knowledge/src/main/java/cn/fxbin/record/basic/jmh/JMHExample15.java)
 
-      
+* 避免循环展开（Loop Unwinding）
+
+> 循环代码在运行阶段（JVM后期优化）极有可能被“痛下杀手”进行相关的优化，这种优化被称为循环展开
+>
+> [代码清单](https://github.com/fxbin/myself-wiki/tree/master/code-modules/basic-knowledge/src/main/java/cn/fxbin/record/basic/jmh/JMHExample16.java)     
+
+* Fork用于避免Profile-guided optimizations
+
+> [代码清单](https://github.com/fxbin/myself-wiki/tree/master/code-modules/basic-knowledge/src/main/java/cn/fxbin/record/basic/jmh/JMHExample17.java)     
