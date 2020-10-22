@@ -3,7 +3,6 @@ package cn.fxbin.record.basic.stream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * FlatMapDemo
@@ -48,12 +47,12 @@ public class StreamDemo {
                 .flatMap(i -> numbers2.stream()
                         .filter(j -> (i+j) % 3 == 0)
                         .map(j -> new int[]{i, j})
-                )
+                ).parallel()
                 .collect(Collectors.toList());
 
         Integer product = numbers.stream().reduce(1, (a, b) -> a * b);
         System.out.println(product);
-
     }
+
 
 }
