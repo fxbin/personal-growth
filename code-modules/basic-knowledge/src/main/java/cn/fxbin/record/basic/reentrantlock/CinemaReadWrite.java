@@ -41,9 +41,10 @@ public class CinemaReadWrite {
     }
 
     public static void main(String[] args) {
-        new Thread(CinemaReadWrite::read).start();
+        new Thread(CinemaReadWrite::write).start();
         new Thread(CinemaReadWrite::read).start();
         new Thread(CinemaReadWrite::write).start();
-        new Thread(CinemaReadWrite::write).start();
+        new Thread(CinemaReadWrite::read).start();
+        new Thread(CinemaReadWrite::read).start();
     }
 }
