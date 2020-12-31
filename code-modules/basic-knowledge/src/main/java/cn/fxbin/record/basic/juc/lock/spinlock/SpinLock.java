@@ -1,4 +1,4 @@
-package cn.fxbin.record.basic.spinlock;
+package cn.fxbin.record.basic.juc.lock.spinlock;
 
 import java.util.concurrent.atomic.AtomicReference;
 

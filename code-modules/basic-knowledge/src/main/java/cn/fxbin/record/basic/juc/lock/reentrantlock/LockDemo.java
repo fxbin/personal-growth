@@ -1,4 +1,4 @@
-package cn.fxbin.record.basic.reentrantlock;
+package cn.fxbin.record.basic.juc.lock.reentrantlock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
