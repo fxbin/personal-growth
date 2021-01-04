@@ -1,5 +1,7 @@
 package cn.fxbin.record.basic.juc.atomic;
 
+import javafx.scene.control.Alert;
+
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
@@ -9,17 +11,38 @@ import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
  * @version v1.0
  * @since 2020/12/31 14:16
  */
-public class AtomicFieldExample {
+public class AtomicFieldExample implements Runnable{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        AtomicIntegerFieldUpdater<Alex> updater =
-                AtomicIntegerFieldUpdater.newUpdater(Alex.class, "salary");
+        a = new Alex();
+        b = new Alex();
 
-        Alex alex = new Alex();
-        int result = updater.addAndGet(alex, 1);
-        assert result == 1;
-        System.out.println(alex);
+        AtomicFieldExample example = new AtomicFieldExample();
+        Runnable target;
+        Thread t1 = new Thread(example);
+        Thread t2 = new Thread(example);
+        t1.start();
+        t2.start();
+        t1.join();
+        t2.join();
+        System.out.println("普通变量a:" + a);
+        System.out.println("升级变量b:" + b);
+    }
+
+    static Alex a;
+
+    static Alex b;
+
+    public static AtomicIntegerFieldUpdater<Alex> updater =
+            AtomicIntegerFieldUpdater.newUpdater(Alex.class, "salary");
+
+    @Override
+    public void run() {
+        for (int i = 0; i < 10000; i++) {
+            a.salary++;
+            updater.getAndIncrement(b);
+        }
     }
 
     public static class Alex {
