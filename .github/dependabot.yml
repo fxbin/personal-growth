@@ -1,0 +1,32 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: cn.fxbin.bubble:bubble-fireworks-parent
+    versions:
+    - 0.0.9-RELEASE
+    - 1.0.0-RELEASE
+  - dependency-name: io.vertx:vertx-stack-depchain
+    versions:
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: com.alibaba.nacos:nacos-client
+    versions:
+    - 1.4.1
+  - dependency-name: com.alibaba.csp:sentinel-transport-simple-http
+    versions:
+    - 1.8.0
+  - dependency-name: com.alibaba:fastjson
+    versions:
+    - 1.2.75
+  - dependency-name: com.alibaba.csp:sentinel-core
+    versions:
+    - 1.8.0
+  - dependency-name: com.alibaba.csp:sentinel-apache-dubbo-adapter
+    versions:
+    - 1.8.0
